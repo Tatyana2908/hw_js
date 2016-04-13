@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #F0EFE7;
+    margin: 0;
+    padding: 0;
+    font: 15px/1.5 Helvetica, Arial, sans-serif;
+    color: #4E443C;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+
+
+a {
+    color: #0388A6;
+}
+
+pre {
+    border:1px solid #000;
+    overflow-x:auto;
+    background: #222;
+    color: #fff;
+    text-shadow: none;
+}
+
+.wrapper {
+    max-width: 980px;
+    padding: 0 20px 40px 20px;
+    margin: auto;
+}
+/*MENU*/
+.menu{
+    margin-top: 50px;
+    margin-left: 0;
+    margin-bottom: 0;
+    background: #729f15;
+
+}
+
+.menu  li{
+    list-style: none;
+    float: left;
+
+}
+.menu li a{
+    display: block;
+     font-size: 16px;
+     padding: 10px 30px 10px 30px;
+     color: #fff;
+     text-decoration: none;
+     text-shadow: none;
+ }
+
+
+/*SUBMENU*/
+
+.submenu{
+    display: none;
+    background: #729f15;
+    margin-left: 0;
+    z-index: 1;
+    position: absolute;
+
+
+}
+.submenu li{
+    float: none;
+    position: relative;
+}
+.submenu li a{
+    width: 92px;
+    font-size: 14px;
+    border-top: 1px solid #8ad130;
+}
+.menu ul{
+    position: absolute;
+
+}
+.menu ul ul{
+    position: absolute;
+    left: 100%;
+}
+.menu li li ul {
+    position: absolute;
+    top: 0;
+    margin: 0;
+}
+.marker{
+    float: right;
+}
+.clearfix :after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.select{
+    padding-top: 30px;
+
+}
+.content{
+    padding-top: 40px;
+}
+h1{
+    text-align: center;
+
+}
+.container{
+    padding: 30px;
+}
+.select{
+    width: 30%;
+    float: left;
+}
+
+/*FOR CHECKBOX*/
+.checkbox_jquery,
+.checkbox_css{
+    float: left;
+}
+
+.checkbox_css{
+    padding-left: 50px;
+}
+.form_fieldset{
+    width: 120px;
+}
+
+.check1 {
+    /*clip: rect(0, 0, 0, 0);*/
+    opacity: 0;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+
+
+}
+.label {
+    cursor: pointer;
+}
+
+
+.label:before{
+    content: " ";
+    display: inline-block;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    background: url(../img/checkbox-2.png);
+    position: relative;
+    top: 3px;
+
+}
+
+.check1:checked + .label:before {
+    background-position: 0 -20px;
+
+}
+
+.label:hover:before {
+    background-position: 0 -40px;
+}
+
+.check1:checked + .label:hover:before {
+    background-position: 0 -60px;
+}
+
+
+
