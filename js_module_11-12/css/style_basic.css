@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font: 16px Arial;
+    background: #e5e5e5;
+
+}
+
+.wrap{
+    width: 1000px;
+    height: 400px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.viewport{
+    width: 924px;
+    height: 312px;
+    margin: 0 auto;
+    border: 6px solid #fff;
+    overflow: hidden;
+    position: relative;
+
+}
+.sliderwrapper{
+    list-style: none;
+    width: 6000px;
+    position: relative;
+}
+.sliderwrapper li{
+    float: left;
+    border-right: 6px solid #fff;
+
+}
+
+.clearfix :after{
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.back{
+    position: absolute;
+    top: 35%;
+}
+.next{
+    position: absolute;
+    top: 35%;
+    right: 0;
+}
+
+
+

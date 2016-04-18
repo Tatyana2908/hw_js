@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    background: #F0EFE7;
+    font: 18px/1.5  Arial, sans-serif;
+    color: #4E443C;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+.page{
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+
+}
+h2,
+h3{
+    text-align: center;
+}
+div{
+    width: 100%;
+    /*height: 130px;*/
+    border-bottom: 1px solid #787878;
+    padding: 15px;
+}
+.page{
+    border-bottom: none;
+}
+.img{
+    display: block;
+    margin: 0 auto;
+}
