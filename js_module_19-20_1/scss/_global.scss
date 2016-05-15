@@ -1,0 +1,62 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html,
+body{
+  height: 100%;
+}
+body {
+  min-width: 320px;
+  font: normal $fontSize-smallest $font-base;
+  color: $gray;
+}
+
+img {
+  vertical-align: middle;
+}
+a {
+  color: $gray;
+  text-decoration: none;
+}
+
+h3 {
+  font-size: $fontSize-large;
+  font-family: $font-extra;
+}
+h4{
+  font-size: $fontSize-small;
+  font-family: $font-extra;
+  color: $grey_dark;
+}
+span{
+  font-family: $font-extra;
+}
+p{
+  font-family: $font-base;
+  line-height: $lineHeight-base;
+  color: $gray;
+
+}
+#wrapper{
+  height: 100%;
+  width: 100%;
+  display: table;
+  overflow: hidden;
+  table-layout: fixed;
+  min-width: 1160px;
+}
+
+#wrap{
+  display:table-row;
+  height: 100%;
+}
+.clearfix:after{
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}

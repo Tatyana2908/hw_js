@@ -1,0 +1,51 @@
+.nav{
+  background: $taupe;
+  position: relative;
+}
+.menu  {
+  li{
+    font-size: 15px;
+    float: left;
+    border-right: 1px solid $dark;
+    padding: 18px 46px 20px 30px;
+  }
+  a{
+     color: $white;
+     &:hover{
+        color: $orang;
+     }
+  }
+  .active{
+     background: $blue;
+   }
+}
+
+
+form{
+  float: right;
+  padding-top: 10px;
+  padding-right: 7px;
+
+}
+input[type=text]{
+  width: 245px;
+  height: 35px;
+  padding-left: 10px;
+  background-color: $black_dark;
+  border: $dark;
+  color: $gray;
+}
+input[type=button]{
+  width: 35px;
+  height: 35px;
+  color: $gray_midle;
+  font-size: 22px;
+  text-align: center;
+  background-color: transparent;
+  top: 10px;
+  right: 7px;
+  border: none;
+  position: absolute;
+  cursor: pointer;
+  outline: none;
+}

@@ -1,0 +1,39 @@
+.accordion{
+  padding: 24px 5px 0 16px;
+  h4{
+    background-color: #fff;
+    padding: 10px 0 10px 0;
+    margin-top: 5px;
+    border: 1px solid #e8e8e8;
+    &:hover{
+      background-color: #f4b60d;
+      border: 1px solid transparent;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+  p{
+     padding: 20px 10px 10px 40px;
+     display: none;
+  }
+  .active{
+       color: #fff;
+       background: #f4b60d;
+       border: 1px solid transparent;
+    .plus:after{
+      content: '\2013';
+      padding-right: 1px;
+    }
+  }
+}
+
+.plus{
+  padding: 10px 15px 10px 15px;
+  border-right: 1px solid #e8e8e8;
+  margin-right: 10px;
+  &:after{
+    content: "+";
+  }
+}
+
+

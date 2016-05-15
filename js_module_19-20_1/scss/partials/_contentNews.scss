@@ -1,0 +1,60 @@
+.name{
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: $fontSize-biggest;
+  color: $gray_clear;
+  font-family: $font-extra;
+}
+
+.boxNews{
+  width: 33.33%;
+  padding-left: 7px;
+  float: left;
+}
+
+.news{
+  width: 60%;
+  display: inline-block;
+}
+.contentNews{
+  max-width: 1160px;
+  padding: 13px 0 85px 0;
+  margin: 0 auto;
+}
+
+.iconNews{
+  display: inline-block;
+  padding-top: 20px;
+
+}
+.title{
+  font-size: $font-size-normal;
+}
+
+.textNews {
+  span{
+    padding-top:16px;
+    display: block;
+    font-family: $font-extra;
+    font-weight: $font-bold;
+    color: $black;
+  }
+  p{
+     padding-top: 10px;
+   }
+}
+
+
+.readMore{
+  padding-top: 10px;
+  span{
+    font-weight: $font-bold;
+    color: $black;
+    font-size: $fontSize-smallest;
+    &:hover{
+      color: $blue;
+    }
+  }
+}
+
