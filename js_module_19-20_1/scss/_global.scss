@@ -1,6 +1,5 @@
-*,
-*:before,
-*:after {
+
+* {
   box-sizing: border-box;
 }
 html,
@@ -8,7 +7,6 @@ body{
   height: 100%;
 }
 body {
-  min-width: 320px;
   font: normal $fontSize-smallest $font-base;
   color: $gray;
 }
@@ -39,7 +37,7 @@ p{
   color: $gray;
 
 }
-#wrapper{
+.wrapper{
   height: 100%;
   width: 100%;
   display: table;
@@ -48,9 +46,14 @@ p{
   min-width: 1160px;
 }
 
-#wrap{
+.wrap{
   display:table-row;
   height: 100%;
+}
+.footer{
+  min-width: 1160px;
+  overflow: hidden;
+  background-color: $taupe;
 }
 .clearfix:after{
   content: '';
