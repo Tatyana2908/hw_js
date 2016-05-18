@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+
+}
+
+.page{
+    width: 500px;
+    padding: 30px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+
+}
+h2{
+    text-align: center;
+}
+input[type=checkbox] {
+    margin-right: 15px;
+
+}
+label {
+    cursor: pointer;
+}
+
+
+.submit input{
+    width: 170px;
+    background: #32afe3;
+    border-radius: 5px;
+    padding: 8px 0 8px 0;
+    margin-top: 20px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
