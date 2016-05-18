@@ -34,3 +34,6 @@ label {
     cursor: pointer;
     border: none;
 }
+.modal-title{
+    text-align: center;
+}
