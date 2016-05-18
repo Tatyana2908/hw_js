@@ -12,18 +12,17 @@ $(function(){
         $(this).stop().animate({backgroundColor:"#729f15"}, 300 );
     });
 
-        $('.js-select').fancySelect();
+    $('.js-select').fancySelect();
 
     $(".check").checkbox();
 
+    $('.jcarousel').jcarousel();
 });
 
 
 
 (function($) {
     $(function() {
-        $('.jcarousel').jcarousel();
-
         $('.jcarousel-control-prev')
             .on('jcarouselcontrol:active', function() {
                 $(this).removeClass('inactive');
