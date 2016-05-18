@@ -1,13 +1,12 @@
-#footer{
-  overflow: hidden;
-}
 
 .boxForFooter{
-  background-color: $taupe;
-}
-.mainFooter{
-  max-width: 1160px;
+  width: 1160px;
   margin: 0 auto;
+
+
+}
+
+.mainFooter{
   padding: 60px 0 70px 0;
 }
 
@@ -34,7 +33,7 @@
   li:last-child{
      border: none;
   }
-  li:hover{
+  a:hover{
       color: $blue;
       cursor: pointer;
   }
