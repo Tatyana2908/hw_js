@@ -1,0 +1,333 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url("../fonts/helveticaneuecyr-roman-webfont.eot");
+    src: url("../fonts/helveticaneuecyr-roman-webfont.eot?#iefix") format('embedded-opentype'),
+    url("../fonts/helveticaneuecyr-roman-webfont.woff2") format('woff2'),
+    url("../fonts/helveticaneuecyr-roman-webfont.woff") format('woff'),
+    url("../fonts/helveticaneuecyr-roman-webfont.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 14px/25px "Helvetica Neue", Tahoma;
+    background-color: #fff;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    width: 100%;
+    background-color: #07508f;
+    float: right;
+    padding-right: 20px;
+}
+
+.menu ul .nav_menu a:hover {
+    background-color: #4eabda;
+    color: #fff;
+}
+
+.menu ul li {
+    float: right;
+    padding: 6px 0px 5px 0px;
+}
+
+.menu ul span {
+    color: #fff;
+}
+
+.menu ul li:nth-child(3) {
+    border-right: 1px solid #4d9ed8;
+}
+
+.menu ul li a {
+    color: #60b5ed;
+    padding: 10px 20px 9px 20px;
+}
+
+.menu ul li.blu_button a {
+    color: #fff;
+    text-decoration: underline;
+    padding: 10px 5px 9px 5px;
+}
+
+.blu_button {
+    background: linear-gradient(to top, #2e7ac4 0%,#51b0dc 100% );
+    border-left: 1px solid #4d9ed8;
+    border-right: 1px solid #4d9ed8;
+    color: #fff;
+}
+
+.nav li img {
+    padding-right: 10px;
+}
+
+.nav li span:nth-child(1) {
+    color: #fff;
+    padding-left: 10px;
+}
+
+.main {
+    background-image: url("../img/background.png");
+    background-color: #98b9c0;
+    background-size: cover;
+    padding: 250px;
+    clear: both;
+}
+
+.bg_forms {
+    width: 560px;
+    height: 613px;
+    background-color: rgba(0,0,0,0.6);
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 21px;
+    padding-bottom: 23px;
+    line-height: 20px;
+    border-bottom: 2px solid #bcc4b5;
+}
+
+.forms {
+    width: 276px;
+    padding-top: 36px;
+    margin: 0 auto;
+}
+
+.line_1 {
+    width: 121px;
+    margin-top: 37px;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #000;
+    float: left;
+}
+
+.ou span {
+    float: left;
+    margin: 23px 0 0 8px;
+    color: #fff;
+}
+
+.line_2 {
+    width: 121px;
+    margin: 37px 0 14px 0;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #000;
+    float: right;
+}
+
+input {
+    font-size: 14px;
+}
+
+.form input {
+    width: 276px;
+    height: 35px;
+    background: #000;
+    color: #ccc;
+    padding-left: 19px;
+    margin-top: 16px;
+    border: none;
+    border-bottom: 1px solid #484847;
+    clear: both;
+}
+
+.form input:focus {
+    color: #fff;
+    background: #1b5288;
+    border-bottom: 1px solid #484847;
+    -webkit-box-shadow: 0px 0px 9px 2px rgba(47,123,197,0.77);
+    -moz-box-shadow: 0px 0px 9px 2px rgba(47,123,197,0.77);
+    box-shadow: 0px 0px 9px 2px rgba(47,123,197,0.77);
+}
+
+/*input:nth-child(3){*/
+
+/*color: #292822;*/
+
+/*}*/
+
+.submit input {
+    width: 149px;
+    height: 35px;
+    background: linear-gradient(to top, #2e7ac4 0%, #4eabda 100%);
+    border-radius: 3px;
+    border: none;
+    border-top: 1px solid #67c6e6;
+    margin-left: 63px;
+    color: #fff;
+    margin-top: 24px;
+}
+
+.checkbox {
+    margin-top: 18px;
+}
+
+.checkbox label {
+    padding-left: 8px;
+    color: #fff;
+}
+
+input[type=checkbox] {
+    width: 13px;
+    height: 13px;
+}
+
+.service {
+    width: 315px;
+    font-size: 11px;
+    color: #fff;
+    text-align: center;
+    line-height: 15px;
+    margin: 0 auto;
+    padding-top: 19px;
+    clear: both;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}

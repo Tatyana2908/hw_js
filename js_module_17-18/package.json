@@ -1,0 +1,11 @@
+{
+  "name": "js_module_17-18",
+  "version": "3.9.1",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2"
+  }
+}
