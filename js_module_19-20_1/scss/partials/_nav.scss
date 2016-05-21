@@ -3,7 +3,8 @@
 }
 .menu  {
   li{
-    font-size: 15px;
+    font-family: $font-extra-third;
+    font-size: $fontSize-small;
     float: left;
     border-right: 1px solid $dark;
     padding: 18px 46px 20px 30px;
