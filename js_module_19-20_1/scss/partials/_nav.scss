@@ -8,12 +8,14 @@
     float: left;
     border-right: 1px solid $dark;
     padding: 18px 46px 20px 30px;
+    cursor: pointer;
+    &:hover a{
+      color: $orang;
+  }
   }
   a{
      color: $white;
-     &:hover{
-        color: $orang;
-     }
+
   }
   .active{
      background: $blue;
